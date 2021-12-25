@@ -1,4 +1,4 @@
-## Setup NestJS, And Angular For MEAN Stack
+## Setup NestJS, And Angular
 
 # Setup NestJS
 
