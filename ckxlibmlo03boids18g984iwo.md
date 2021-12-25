@@ -1,4 +1,4 @@
-## 01 - Introduction / MEAN Stack Project Series
+## What is MEAN Stack?
 
 # What is MEAN?
 
