@@ -1,4 +1,4 @@
-## Get Started With GraphQL In ASP.NET Core With HotChocol
+## Get Started With GraphQL In ASP.NET Core With HotChocolate
 
 # Why Use GraphQL
 
