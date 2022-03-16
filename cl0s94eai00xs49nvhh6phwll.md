@@ -93,13 +93,13 @@ Now Our Project Is Done We Can Test It Now:
 dotnet run --project GraphQLApi
 ```
 
-Now Navigate To http://localhost:5160 To See Your "Hello World" Minimal API
+Now Navigate To http://localhost:5160 (or whatever URL that it shows you) To See Your "Hello World" Minimal API
 
 # Add GraphQL To ASP.NET Core Application
 ### Add the HotChocolate.AspNetCore package
 This Package Includes Everything That's Needed To Get Your GraphQL Server Up And Running. To Install It Run The Following Command:
 ```bash
-dotnet add package HotChocolate.AspNetCore --project=GraphQLApi
+dotnet add GraphQLApi package HotChocolate.AspNetCore
 ```
 
 ### Define the types
