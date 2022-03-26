@@ -1,10 +1,10 @@
 ## What Is Span In C#? And How It Improves The Performance?
 
 ## What Is Span?
-Span Is A `ref struct` In C# That Can Help You Save A Lot Of Memory Allocation. Because Span Is `ref struct` It Can Be Only Allocated On The Stack And Not On The Heap Which Means It Does Not Require Garbage Collection Which Effectively Means That There Gonna Be No Pause In Your Application For Garbage Collection. Let's See What Span Is And How You Can Use It With An Example:
+Span is a `ref struct` in c# that can help you save a lot of memory allocation. Because span is `ref struct` it can be only allocated on the stack and not on the heap which means it does not require garbage collection which effectively means that there gonna be no pause in your application for garbage collection. Let's see what span is and how you can use it with an example:
 
 ## Example
-In This Example, We Need To Get Abstract The Day, Month, Year From A String That Is Formatted In A Specific Way. For That, We Can Use The `Substring` Method. 
+In this example, we need to get extract the day, month, year from a string that is formatted in a specific way. For that, we can use the `Substring` method.
 
 ### With Substring
 ```csharp
@@ -23,13 +23,13 @@ var dateAsText = "03 02 2022";
 }
 ```
 
-It Looks Just Right But Here Is A Problem That This Is Allocating A String On The Heap Each Time We Use The `Substring` Method Which Is Expensive Because Then The Garbage Collector Needs To Go And Do Some Garbage Collection Which Effectively Makes Your Application Pause. We Can Fix This Issue Using A `ReadOnlySpan`.
+It looks just right but here is a problem that this is allocating a string on the heap each time we use the `Substring` method which is expensive because then the garbage collector needs to go and do some garbage collection which effectively makes your application pause. We can fix this issue using a `ReadOnlySpan`.
 
 ### With Span
 ```csharp
 var dateAsText = "03 02 2022";
 
-// Create A Tuple With (Day, Month, Year) In It.
+// Create a tuple with (Day, Month, Year) in it.
 (int day, int month, int year) DateAsTupleWithSpan()
 {
     ReadOnlySpan<char> dateAsSpan = dateAsText;
@@ -43,7 +43,7 @@ var dateAsText = "03 02 2022";
 }
 ```
 
-This Code Actually Performs Better Than The Previous One We Will Talk How It Does That After Benchmarking The Both Functions Let's Do Some Benchmarking Now With `Benchmark.NET` Library. If You Need To Know How To Use The Benchmark.NET Library To Benchmark .NET Code Read This Blog Post: [Benchmark Your .NET Code With Benchmark](https://programmingfire.com/benchmark-your-dotnet-code-with-benchmark-dotnet)
+This code actually performs better than the previous one we will talk about how it does that after benchmarking both functions let's do some benchmarking now with the `Benchmark.NET` library. If you need to know how to use the Benchmark.NET library to Benchmark.NET code read this blog post: [Benchmark Your .NET Code With Benchmark.NET](https://programmingfire.com/benchmark-your-dotnet-code-with-benchmark-dotnet)
 
 ## Benchmarks
 ### Defining Benchmarks
@@ -89,7 +89,7 @@ public class SpanVsSubstring
 | DateAsTupleWithSubstring | 143.13 ns | 8.278 ns | 24.147 ns | 134.34 ns | 0.0918 |      96 B | 
 |      DateAsTupleWithSpan |  69.98 ns | 2.363 ns |  6.780 ns |  68.32 ns |      - |         - |
 
-As You Can See The `DateAsTupleWithSpan` Function Is More Than Half Faster Than The `DateAsTupleWithSubstring` One Which Is A Big Performance Improvement But The Interesting Thing Happens On The Memory Allocation Which You Can See The Span Did Not Allocate Even A Single Byte On The Heap Where The Substring One Allocated `96 B` On The Heap Which Then Needs To Be Garbage Collected Through The Garbage Collector Which Again Pauses Your Application. But Really How Span Did The Same Thing That Substring Did But Without Allocating Even A Single Byte On The Heap. Here's A Diagram That Shows This.
+As you can see the `DateAsTupleWithSpan` function is more than half faster than the `DateAsTupleWithSubstring` one which is a big performance improvement but the interesting thing that happens on the memory allocation which you can see the span did not allocate even a single byte on the heap where the substring one allocated `96B` on the heap which then needs to be garbage collected through the garbage collector which again pauses your application. But really how span did the same thing that substring did but without allocating even a single byte on the heap. Here's a diagram that shows this. 
 
 ## How Does Substring Works?
 ![HowSpanWorks.dio-Substring.drawio.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1648114283029/zn_wpS_KL.png)
