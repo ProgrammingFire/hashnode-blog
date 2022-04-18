@@ -1,4 +1,4 @@
-## Benchmark Your .NET Code With Benchmark
+## Benchmark Your .NET Code With Benchmark.NET
 
 ## What is Benchmark.NET?
 Benchmark.NET helps you to transform methods into benchmarks, track their performance, and share reproducible measurement experiments. It's no harder than writing unit tests! Under the hood, it performs a lot of magic that guarantees reliable and precise results thanks to the perfolizer statistical engine. Benchmark.NET protects you from popular benchmarking mistakes and warns you if something is wrong with your benchmark design or obtained measurements. The results are presented in a user-friendly form that highlights all the important facts about your experiment.
