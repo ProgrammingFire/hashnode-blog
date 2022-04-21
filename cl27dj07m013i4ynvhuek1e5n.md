@@ -41,13 +41,13 @@ For converting decimal to binary we need to keep dividing the decimal number by 
 
 | Diviser	|  Quotient	|  Reminder 	|
 |---	|---	| ---	|
-| 2 	|  8 	|  0 	| 
+| 2 	|  8 	|   	| 
 | 2 	|  4 	|  0 	| 
 | 2 	|  2 	|  0 	| 
 | 2 	|  1 	|  0 	| 
 | 2 	|  0 	|  1 	| 
 
-8 in decimal is 1110 in binary
+8 in decimal is 1000 in binary
 
 ## Octal Number System
 The octal number system uses eight digits (0 to 8) instead of 2 like there is in binary. It is widely used in computers. You know that the decimal number system has ten digits from 0 to 9. As the decimal number system has ten digits, it is called the Base 10 System. Similarly, the octal number system has only eight digits (0 to 8) so it is called the Base 8 System.
