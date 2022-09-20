@@ -1,12 +1,12 @@
 ## Get Started With React TypeScript
 
-## Why Use Typescript In React ?
+## Why Use Typescript In React?
 
 Typescript brings some awesome features that extend JavaScript in powerful ways, including the ability to define the structure of an object in a variety of ways.
 
 ## Create React App Using [create-react-app](https://create-react-app.dev/)
 
-When you normaly create a react app you run :
+When you normally create a react app you run :
 
 ```bash
 # with npm
@@ -28,7 +28,7 @@ yarn create react-app my-app --template typescript
 
 ### Create A New Component
 
-Components in React Typescript are diffrent from React Javascript . To define a component in React Typescript create a file with **.tsx** extension lets just create **Component/User.tsx** with the following code
+Components in React Typescript are different from React Javascript. To define a component in React Typescript create a file with the **.tsx** extension let's just create **Component/User.tsx** with the following code
 
 ```tsx
 import React from "react";
@@ -37,7 +37,7 @@ export const User: React.FC = ({}) => {
 };
 ```
 
-Now we have a user component, now go to **App.tsx** and render User component with the following code
+Now we have a user component, now go to **App.tsx** and render the User component with the following code
 
 ```tsx
 import React from "react";
@@ -68,13 +68,13 @@ On your browser open **https://localhost:3000/** and you are going to see this
 
 ![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1640178078970/S-lLxuIvg.png)
 
-To take props in User component add your props in <> like this
+To take props in the User component add your props in <> like this
 
 ```tsx
 export const User: React.FC<{firstName: string, lastName:string, userId:number}>
 ```
 
-But, better way to do this is to create an [Interface](https://www.typescriptlang.org/docs/handbook/2/objects.html) like this
+But, a better way to do this is to create an [Interface](https://www.typescriptlang.org/docs/handbook/2/objects.html) like this
 
 ```tsx
 interface Props = {
@@ -103,13 +103,13 @@ export const User:React.FC<Props> = ({firstName, lastName, userId}) => {
 }
 ```
 
-Because now our User component want these props where we are rendering this component we need to pass the props like in **App.tsx**
+Because now our User component wants these props where we are rendering this component we need to pass the props like in **App.tsx**
 
 ```tsx
 <User firstName="Nouman" lastName="Rahman" userId={12} />
 ```
 
-Now our app look like this
+Now our app looks like this
 
 ![image](https://cdn.hashnode.com/res/hashnode/image/upload/v1640178113276/1aCgaR5oW.png)
 
