@@ -91,6 +91,7 @@ from sklearn.tree import plot_tree, export_text
 plt.figure(figsize=(80,20))
 plot_tree(model, feature_names=X_train.columns, max_depth=2, filled=True);
 ```
+![Group 5.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664092449875/Md-5XDxIs.png)
 
 Let's check the depth of the tree that was created.
 
