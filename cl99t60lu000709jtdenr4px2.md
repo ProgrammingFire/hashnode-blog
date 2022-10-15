@@ -55,7 +55,7 @@ I have found the `cultiris` user on line 378. So according to the challenge [des
 ```
 The first thing that I noticed is that this looks like a flag, but then, I saw that the letter `c` comes 13 characters before the letter `p`. That clearly means that this is a `ROT13` decrypted message. Let's decrypt it using the [CyberChef](https://gchq.github.io/CyberChef/) tool. It is the tool that I use to decrypt most of the messages.
 
-![CyberChef](https://cdn.hashnode.com/res/hashnode/image/upload/v1665831413019/RjfBAjN-i.png align="left")
+![CyberChef](https://cdn.hashnode.com/res/hashnode/image/upload/v1665831872832/leGhRnWPd.png align="left")
 
 Now, we have decrypted the message, and the output that we got is `picoCTF{C7r1F_54V35_71M3}`
 
