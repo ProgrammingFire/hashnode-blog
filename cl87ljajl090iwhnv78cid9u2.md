@@ -1,4 +1,4 @@
-## Deploying a full-stack application to a scalable environment: A Step-By-Step Guide
+# Deploying a full-stack application to a scalable environment: A Step-By-Step Guide
 
 Developing a web application is only half the battle - once you've built it, you need to deploy it to a production environment so that your users can actually access and use it! In this article, we'll walk you through the steps of how to deploy a full-stack web application to a scalable production environment.
 
