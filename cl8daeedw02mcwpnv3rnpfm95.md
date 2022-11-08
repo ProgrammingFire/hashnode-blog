@@ -1,4 +1,4 @@
-## Why Serverless doesn't make any sense!
+# Why Serverless doesn't make any sense!
 
 There are two things in this world that I don't understand Serverless and Serverless. And part of that could be for me, just like not having a lot of experience with it because every time I dip my toe in the serverless water, it's just freezing cold and I'm just not wanting to get started with it. From the outside, Serverless looks very attractive. I give it at least an eight out of a ten. And the part that I find most beautiful is that it can auto-scale to exactly the load you have.
 
