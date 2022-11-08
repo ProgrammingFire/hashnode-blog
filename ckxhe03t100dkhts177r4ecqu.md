@@ -1,4 +1,4 @@
-## Create a Docker Image For Node.js
+# Create a Docker Image For Node.js
 
 # Why Docker?
 
