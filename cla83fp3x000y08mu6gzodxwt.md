@@ -33,6 +33,9 @@ DevOps tools are the biggest part of the solution.
 When thinking about tools your business needs for development or operations, consider their usefulness across the entire DevOps cycle, not just for a single functional team, that way you’ll be eliminating the siloed teams that are often caused by miscommunication and poorly adopted company culture.
 
 ### The cloud is everywhere now – Use it wisely
+
+
+![image 13.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667918583702/A8PJqnkis.png align="left")
 DevOps and cloud computing are like Peanut Butter and Jelly, like Macaroni and Cheese, like Batman and Robin, well you get the picture.
 While DevOps on-premise is possible, the cloud increases scalability and agility and is widely adopted across the largest companies.
 
@@ -42,7 +45,7 @@ Making use of the cloud also allows for fast self-serve provisioning of cloud re
 
 ## The top 6 tools
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667902237035/UoroARu0g.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667918595211/-m53kHjLS.png align="left")
 While looking to scale your operations and achieve your business goals, you should be looking at various DevOps tools to help you in your endeavor. Here are our 6 best DevOps tools you should be using:
 
 ### Ansible
@@ -68,7 +71,7 @@ Puppet discovers information about a system by using a utility called Facter.
 
 ### Git
 
-![image 11.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667904223726/9ai_ZKHo1.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1667918623495/monkEjJBx.png align="left")
 Git is crucial for alignment between all development, R&D, and IT teams, leading to more visibility and clarity into development pipelines and better communication among the various engineering teams.
 Git is an open-source distributed version control system designed to handle everything from the smallest to very large projects with maximum speed and efficiency.
 
