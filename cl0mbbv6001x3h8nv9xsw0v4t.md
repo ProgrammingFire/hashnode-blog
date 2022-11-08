@@ -1,4 +1,4 @@
-## Deploy .NET Minimal APIs To Kubernetes!
+# Deploy .NET Minimal APIs To Kubernetes!
 
 ## Prerequisites
 
