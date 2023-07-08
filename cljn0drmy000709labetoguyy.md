@@ -1,5 +1,6 @@
 ---
 title: "What is JAMstack, and Why Should You Bother About It?"
+seoTitle: "What is JAMStack? How to use it?"
 seoDescription: "In the rapidly evolving world of web development, staying updated with the latest trends and technologies is essential. One such technology gaining..."
 datePublished: Mon Jul 03 2023 15:21:14 GMT+0000 (Coordinated Universal Time)
 cuid: cljn0drmy000709labetoguyy
