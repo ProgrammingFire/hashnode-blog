@@ -1,5 +1,6 @@
 ---
 title: "Create a Static Blog in Minutes with Hugo and Vercel"
+seoTitle: "How to create and deploy a Hugo site to Vercel"
 seoDescription: "In the world of content creation, having a personal blog is a powerful way to share your thoughts, knowledge, and experiences with the world..."
 datePublished: Fri Jun 09 2023 10:24:27 GMT+0000 (Coordinated Universal Time)
 cuid: cliof7n54000409mk1a3eedja
