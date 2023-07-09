@@ -4,6 +4,7 @@ seoDescription: "In the world of software architecture, microservices have gaine
 datePublished: Sun Jul 09 2023 15:38:32 GMT+0000 (Coordinated Universal Time)
 cuid: cljvln4mw000309l44am38lqu
 slug: what-is-the-best-way-to-implement-microservices-and-is-it-really-worth-it
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688917436081/b5cd16c4-97c4-466d-9082-66c6b47687c9.png
 tags: microservices, cloud, aws, web-development, devops
 
 ---
