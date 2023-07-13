@@ -1,4 +1,13 @@
-## Introduction To Relational Databases With PostgreSQL.
+---
+title: "Introduction To Relational Databases With PostgreSQL."
+seoDescription: "A Database is an organized collection of data stored and accessed electronically from a computer system. Where databases are more complex they are often..."
+datePublished: Sat Mar 26 2022 13:50:52 GMT+0000 (Coordinated Universal Time)
+cuid: cl17wuak201hzsenv4kdlho43
+slug: introduction-to-relational-databases-with-postgresql
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274405940/ZS-zXiN64.png
+tags: introduction, postgresql, data, databases, sql
+
+---
 
 # SQL Tutorial (Postgres)
 
