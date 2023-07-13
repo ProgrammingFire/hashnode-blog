@@ -1,4 +1,13 @@
-## Introduction to Backend as a Service (BaaS)
+---
+title: "Introduction to Backend as a Service (BaaS)"
+seoDescription: "Backend-as-a-Service (BaaS) allows developers to focus on the front end of their applications and leverage backend services without building them."
+datePublished: Sun Sep 11 2022 15:49:44 GMT+0000 (Coordinated Universal Time)
+cuid: cl7xii44y0eq4x9nv49bxcppy
+slug: introduction-to-backend-as-a-service
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662911277512/YE5kc3nbT.png
+tags: javascript, server, firebase, backend, backend-as-a-service
+
+---
 
 ## What is BaaS?
 Backend-as-a-Service (BaaS) allows developers to focus on the front end of their applications and leverage backend services without building or maintaining them. BaaS and serverless computing share some similarities, and many providers offer both, but the two models have several differences.
