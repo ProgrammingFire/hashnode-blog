@@ -1,4 +1,12 @@
-## 5 Amazing Tools For Developers Written In Rust
+---
+title: "5 Amazing Tools For Developers Written In Rust"
+datePublished: Tue Apr 19 2022 12:58:21 GMT+0000 (Coordinated Universal Time)
+cuid: cl265j6v004yzqynv11ov1z7i
+slug: amazing-tools-for-developers-written-in-rust
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650373081280/VZNf7LaG7.png
+tags: productivity, terminal, tools, projects, rust
+
+---
 
 Rust is getting more popular every day and a lot of OSS developers are creating more tools every day for developers in rust. Today we are going to take a look at five development tools written in rust.
 
