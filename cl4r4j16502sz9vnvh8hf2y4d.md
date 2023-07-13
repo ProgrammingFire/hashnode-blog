@@ -1,4 +1,13 @@
-## Types Of Computer Viruses
+---
+title: "Types Of Computer Viruses"
+seoDescription: "Malware is any software intentionally designed to cause disruption to a computer, server, client, or computer network, leak private information"
+datePublished: Thu Jun 23 2022 14:32:48 GMT+0000 (Coordinated Universal Time)
+cuid: cl4r4j16502sz9vnvh8hf2y4d
+slug: types-of-computer-viruses
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1655994585921/pYciGeJtJ.png
+tags: security, hacking, computer, malwares, viruses
+
+---
 
 ## Popular Computer Viruses
 - Trojans
