@@ -1,4 +1,13 @@
-# picoCTF 2022: Forensics: File types
+---
+title: "picoCTF 2022: Forensics: File types"
+seoDescription: "This file was found among some files marked confidential but my pdf reader cannot read it, maybe yours can. You can download the file from here..."
+datePublished: Mon Oct 24 2022 07:43:58 GMT+0000 (Coordinated Universal Time)
+cuid: cl9mh31e2000409mm4vqpate2
+slug: picoctf-2022-forensics-file-types
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666597360137/vKJQ9tzJ-.png
+tags: cyber-security, ctf, forensics, picoctf, picoctf-2022
+
+---
 
 ## Introduction
 **Challenge:** [File types](https://play.picoctf.org/practice/challenge/268)
