@@ -1,4 +1,13 @@
-# Deploy .NET Minimal APIs To Kubernetes!
+---
+title: "Deploy .NET Minimal APIs To Kubernetes!"
+seoDescription: "Kubernetes provides an easy way to scale your application, compared to virtual machines. It keeps code operational and speeds up the delivery process."
+datePublished: Fri Mar 11 2022 11:05:31 GMT+0000 (Coordinated Universal Time)
+cuid: cl0mbbv6001x3h8nv9xsw0v4t
+slug: deploy-dotnet-minimal-apis-to-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274074998/Dylacl7YK.png
+tags: docker, kubernetes, apis, devops, dotnet
+
+---
 
 ## Prerequisites
 
