@@ -1,4 +1,13 @@
-# Do You Really Need Kubernetes in Real-World?
+---
+title: "Do You Really Need Kubernetes in Real-World?"
+seoDescription: "If you're a developer, chances are you've heard of Kubernetes. It's become one of the most popular container orchestration platforms in recent years..."
+datePublished: Sat Sep 17 2022 09:49:32 GMT+0000 (Coordinated Universal Time)
+cuid: cl85qa0k301l7whnveb0s5jm5
+slug: do-you-really-need-kubernetes-in-real-world
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663408152793/NyIuXCFjX.png
+tags: cloud, kubernetes, google, devops, beginners
+
+---
 
 If you're a developer, chances are you've heard of Kubernetes. It's become one of the most popular container orchestration platforms in recent years. But what is it, and do you really need it? In this article, we'll explore what Kubernetes is and some of the key benefits it can offer.
 
