@@ -1,4 +1,13 @@
-## Explore the new Era of C++, The Carbon Language
+---
+title: "Explore the new Era of C++, The Carbon Language"
+seoDescription: "Carbon is an open-source, statically-typed, compiled programming language initially built by Google to succeed in C++. Carbon offers modern programming..."
+datePublished: Mon Sep 12 2022 10:29:50 GMT+0000 (Coordinated Universal Time)
+cuid: cl7ymikek00ggewnvhtf8g8yf
+slug: explore-the-carbon-language
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662978432311/szp8swv0M.png
+tags: cpp, introduction, google, programming-languages, carbon
+
+---
 
 ## Introduction
 C++, the successor to the C programming language, is unarguably one of the most relevant languages of the modern day. C++ powers Python machine learning, JavaScript libraries, game development, and many other tools used in modern programming languages.
