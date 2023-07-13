@@ -1,4 +1,13 @@
-## What are Decision Trees in ML: with Scikit-Learn
+---
+title: "What are Decision Trees in ML: with Scikit-Learn"
+seoDescription: "A decision tree in general parlance represents a hierarchical series of binary decisions. A decision tree in machine learning works in exactly the same way."
+datePublished: Sun Sep 25 2022 08:42:47 GMT+0000 (Coordinated Universal Time)
+cuid: cl8h3ezmk0651qgnvgcv3csxu
+slug: what-are-decision-trees-in-ml-with-scikit-learn
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1664095158437/EckK9TBuk.png
+tags: artificial-intelligence, python, data-science, machine-learning, jupyter-notebook
+
+---
 
 ## Introduction
 A decision tree in general parlance represents a hierarchical series of binary decisions. A decision tree in machine learning works in exactly the same way, and except that we let the computer figure out the optimal structure & hierarchy of decisions, instead of coming up with criteria manually.
