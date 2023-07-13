@@ -1,4 +1,13 @@
-# Write an effective penetration testing report
+---
+title: "Write an effective penetration testing report"
+seoDescription: "Did you build a website or an app? But is it secure? Well, probably not. A penetration test, colloquially known as a pen test or ethical hacking..."
+datePublished: Wed Oct 12 2022 12:41:18 GMT+0000 (Coordinated Universal Time)
+cuid: cl95mf78c000b09l5hesoa3z5
+slug: write-an-effective-penetration-testing-report
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665578411953/RXDk6N26J.png
+tags: writing, documentation, hacking, pentesting, cybersecurity-1
+
+---
 
 Did you build a website or an app? But is it secure? Well, probably not. A penetration test, colloquially known as a pen test or ethical hacking, is an authorized simulated cyberattack on a computer system, performed to evaluate the security of the system; this is not to be confused with a vulnerability assessment. By doing a pen test you can exactly know most of the vulnerabilities in your application. But to deliver those vulnerabilities to the developers, you have to write a report. In this article, we are talking about Penetration Testing Reports.
 
