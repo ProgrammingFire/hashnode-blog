@@ -1,4 +1,13 @@
-# What is Helm: The package manager for Kubernetes
+---
+title: "What is Helm: The package manager for Kubernetes"
+seoDescription: "Helm is a package manager for Kubernetes, which makes it simple to take applications and services that are highly re-iterable..."
+datePublished: Wed Sep 21 2022 11:33:46 GMT+0000 (Coordinated Universal Time)
+cuid: cl8bjrgpy000u09l62vbjbp3p
+slug: what-is-helm-the-package-manager-for-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663759940289/OGFpb1BfK.png
+tags: cloud, docker, programming, kubernetes, devops
+
+---
 
 ## What is Helm?
 Helm is a package manager for Kubernetes, which makes it simple to take applications and services that are highly re-iterable, or used across a number of scenarios, and deploy them into your typical K8s cluster. Helm charts enable developers and operators to easily package, configure, and deploy applications and services on Kubernetes clusters. Helm packages are charts composed of multiple configuration files in YAML format, and templates that are rendered to a K8s cluster as Kubernetes manifest files. Helm deploys packaged applications into Kubernetes and structures them in charts. 
