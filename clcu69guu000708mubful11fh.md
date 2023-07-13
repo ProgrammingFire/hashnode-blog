@@ -1,4 +1,13 @@
-# Gradio: Create ML Web Apps UI with Python
+---
+title: "Gradio: Create ML Web Apps UI with Python"
+seoDescription: "One of the best ways to share your machine learning model, API, or data science workflow with others is to create an interactive app that allows you..."
+datePublished: Fri Jan 13 2023 07:02:18 GMT+0000 (Coordinated Universal Time)
+cuid: clcu69guu000708mubful11fh
+slug: gradio-create-ml-web-apps-ui-with-python
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673593265633/27bd6e83-0364-4abb-9a9c-734148f97643.png
+tags: user-interface, artificial-intelligence, python, machine-learning, testing
+
+---
 
 ## What Does Gradio Do?
 
