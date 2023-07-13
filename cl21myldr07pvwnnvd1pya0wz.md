@@ -1,4 +1,13 @@
-## What Is Rust And Why It Is So Popular?
+---
+title: "What Is Rust And Why It Is So Popular?"
+seoDescription: "Rust has been the most loved language for six years in a row according to StackOverflow Developer Survey..."
+datePublished: Sat Apr 16 2022 09:07:22 GMT+0000 (Coordinated Universal Time)
+cuid: cl21myldr07pvwnnvd1pya0wz
+slug: what-is-rust-and-why-it-is-so-popular
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274450127/t5MO72Z3g.png
+tags: cpp, c, system-architecture, rust, programming-languages
+
+---
 
 Rust has been the most loved language for six years in a row according to [StackOverflow Developer Survey](https://insights.stackoverflow.com/survey/2021#technology-most-loved-dreaded-and-wanted), indicating that many of those who have had the opportunity to use Rust have fallen in love with it. However, roughly 97% of survey respondents who haven’t used Rust may wonder, “What’s the deal with Rust?”
 
