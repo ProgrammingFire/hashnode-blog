@@ -1,4 +1,13 @@
-# Why Svelte is becoming the next React and I love it
+---
+title: "Why Svelte is becoming the next React and I love it"
+seoDescription: "Nowadays, I see Svelte becoming more and more popular. I thought to try it and I quickly realized that it's awesome, but then, I wonder that..."
+datePublished: Sat Dec 31 2022 10:39:49 GMT+0000 (Coordinated Universal Time)
+cuid: clcbtb44g000108mr0snf867b
+slug: why-svelte-is-becoming-the-next-react-and-i-love-it
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672483009952/1011e7ff-c252-40d3-a3ab-218dc66a86ac.png
+tags: javascript, web-development, svelte, sveltekit, svelte-vs-react
+
+---
 
 Nowadays, I see Svelte becoming more and more popular. I thought to try it and I quickly realized that it's awesome, but then, I wonder that **"is Svelte gonna replace React?".** We will find that out in this article, so let's get started.
 
