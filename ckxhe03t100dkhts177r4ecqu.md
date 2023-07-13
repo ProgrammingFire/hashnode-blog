@@ -1,4 +1,13 @@
-# Create a Docker Image For Node.js
+---
+title: "Create a Docker Image For Node.js"
+seoDescription: "Docker allows you to package an application with its environment and all of its dependencies into a "box", called a container..."
+datePublished: Wed Dec 22 2021 10:22:23 GMT+0000 (Coordinated Universal Time)
+cuid: ckxhe03t100dkhts177r4ecqu
+slug: create-docker-image-for-nodejs
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273783295/dvUa7SrHh.png
+tags: docker, deployment, nodejs, docker-images
+
+---
 
 # Why Docker?
 
