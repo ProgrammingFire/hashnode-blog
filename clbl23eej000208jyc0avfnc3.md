@@ -1,4 +1,13 @@
-# Explore the New Era of Static Sites Generation: Astro
+---
+title: "Explore the New Era of Static Sites Generation: Astro"
+seoDescription: "Do you know what is the hottest stuff going on in the Web Dev Community, it's JAM Stack, Static Sites, and stuff like that. People are more into creating..."
+datePublished: Mon Dec 12 2022 17:15:59 GMT+0000 (Coordinated Universal Time)
+cuid: clbl23eej000208jyc0avfnc3
+slug: explore-the-new-era-of-static-sites-generation-astro
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670865277427/3QNscwoYY.png
+tags: software-development, javascript, web-development, jamstack, astro
+
+---
 
 Do you know what is the hottest stuff going on in the Web Dev Community, it's JAM Stack, Static Sites, and stuff like that. People are more into creating their portfolios, blogs, podcasts, etc. where you don't need a lot of business-level technologies like Angular, .NET, and MySQL. This is where most people use more content-driven technologies like a Static Site Generator, a Content Management System, and more...
 
