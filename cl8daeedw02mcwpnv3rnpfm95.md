@@ -1,4 +1,13 @@
-# Why Serverless doesn't make any sense!
+---
+title: "Why Serverless doesn't make any sense!"
+seoDescription: "There are two things in this world that I don't understand Serverless and Serverless. And part of that could be for me..."
+datePublished: Thu Sep 22 2022 16:47:12 GMT+0000 (Coordinated Universal Time)
+cuid: cl8daeedw02mcwpnv3rnpfm95
+slug: why-serverless-doesnt-make-any-sense
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663865208679/OFGWvIJQj.png
+tags: cloud, aws, nodejs, devops, serverless
+
+---
 
 There are two things in this world that I don't understand Serverless and Serverless. And part of that could be for me, just like not having a lot of experience with it because every time I dip my toe in the serverless water, it's just freezing cold and I'm just not wanting to get started with it. From the outside, Serverless looks very attractive. I give it at least an eight out of a ten. And the part that I find most beautiful is that it can auto-scale to exactly the load you have.
 
