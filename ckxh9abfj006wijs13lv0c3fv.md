@@ -1,4 +1,13 @@
-## Setup PostgreSQL With TypeORM
+---
+title: "Setup PostgreSQL With TypeORM"
+seoDescription: "ORM Stands For Object Relational Mapping Used To Convert Data Between Incompatible Type Systems Using Object-Oriented Programming Languages"
+datePublished: Wed Dec 22 2021 08:10:21 GMT+0000 (Coordinated Universal Time)
+cuid: ckxh9abfj006wijs13lv0c3fv
+slug: setup-postgres-with-typeorm
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273599109/vmHXkjEVO.png
+tags: postgresql, nodejs, database, typescript
+
+---
 
 ## What is an ORM ?
 ORM Stands For Object Relational Mapping Used To Convert Data Between Incompatible Type System Using Object Oriented Programming Languages Like JavaScript, TypeScript, Python
