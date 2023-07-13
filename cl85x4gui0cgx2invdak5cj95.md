@@ -1,4 +1,13 @@
-## Explore the new Era of Databases, The SurrealDB
+---
+title: "Explore the new Era of Databases, The SurrealDB"
+seoDescription: "NoSQL databases have been on the rise in recent years, as they offer benefits over traditional relational databases. However, NewSQL is coming..."
+datePublished: Sat Sep 17 2022 13:01:11 GMT+0000 (Coordinated Universal Time)
+cuid: cl85x4gui0cgx2invdak5cj95
+slug: explore-the-new-era-of-databases-the-surrealdb
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663416156704/ikgg2OGtQ.png
+tags: nosql, javascript, databases, sql, surrealdb
+
+---
 
 NoSQL databases have been on the rise in recent years, as they offer benefits over traditional relational databases. However, a new type of database called SurrealDB is now being developed that promises to provide even more benefits. In this article, we'll take a look at SurrealDB and how it could change the database landscape in the years to come.
 
