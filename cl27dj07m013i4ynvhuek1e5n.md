@@ -1,4 +1,13 @@
-## A Deep Dive in Computer Number Systems
+---
+title: "A Deep Dive in Computer Number Systems"
+seoDescription: "Number system is a set of values used to represent different quantities. In day-to-day life, we use the decimal number system, which has a base of 10."
+datePublished: Wed Apr 20 2022 09:29:55 GMT+0000 (Coordinated Universal Time)
+cuid: cl27dj07m013i4ynvhuek1e5n
+slug: deep-dive-in-computer-number-systems
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650446844116/TyfpDB7vB.png
+tags: programming, computer-science
+
+---
 
 # What Are Number Systems?
 **Number System** is a set of values used to represent different quantities. In day-to-day life, we use the decimal number system, which has a base of 10 as it uses 10 digits (0-9). The computer represents all kinds of data and information (like text, numbers, graphics, and videos) in binary numbers that have a base of 2 as the computer uses 2 digits (0, and 1). Binary is the most widely used number system in computers, but there are more like hexadecimal (used for storing memory addresses) and octal (used in the aviation sector). Values from one number system can be converted to the other number system.
