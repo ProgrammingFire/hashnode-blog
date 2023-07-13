@@ -1,4 +1,13 @@
-# picoCTF 2022: Cryptography: credstuff
+---
+title: "picoCTF 2022: Cryptography: credstuff"
+seoDescription: "We found a leak of a black-market website's login credentials. Can you find the password of the user cultiris and successfully decrypt it?..."
+datePublished: Sat Oct 15 2022 11:01:12 GMT+0000 (Coordinated Universal Time)
+cuid: cl99t60lu000709jtdenr4px2
+slug: picoctf-2022-cryptography-credstuff
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665831795697/b6as2xjOM.png
+tags: cryptography, cyber-security, ctf, picoctf, picoctf-2022
+
+---
 
 ## Introduction
 **Challenge:** [credstuff](https://play.picoctf.org/practice/challenge/261?originalEvent=70&page=1)
