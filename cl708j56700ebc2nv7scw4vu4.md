@@ -1,4 +1,13 @@
-## Which Machine Learning algorithm to use in different ML problems?
+---
+title: "Which Machine Learning algorithm to use in different ML problems?"
+seoDescription: "Logistic Regression and Linear Regression are two different Machine Learning algorithms used for different Machine Learning problems..."
+datePublished: Fri Aug 19 2022 08:54:12 GMT+0000 (Coordinated Universal Time)
+cuid: cl708j56700ebc2nv7scw4vu4
+slug: which-machine-learning-algorithm-to-use-in-different-ml-problems
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660899205373/B-kaOZ9qJ.png
+tags: workflow, machine-learning, mathematics, linear-regression, logistic-regression
+
+---
 
 ## Introduction
 Logistic Regression and Linear Regression are two different Machine Learning algorithms used for different Machine Learning problems. So, First, we need to know about ML.
