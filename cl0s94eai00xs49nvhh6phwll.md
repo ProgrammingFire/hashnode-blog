@@ -1,4 +1,13 @@
-## Get Started With GraphQL In ASP.NET Core With HotChocolate
+---
+title: "Get Started With GraphQL In ASP.NET Core With HotChocolate"
+seoDescription: "GraphQL is an awesome way of building APIs and ASP.NET Core is an awesome framework for building web applications. What if we combine them together 🚀"
+datePublished: Tue Mar 15 2022 14:50:20 GMT+0000 (Coordinated Universal Time)
+cuid: cl0s94eai00xs49nvhh6phwll
+slug: get-started-with-graphql-in-aspnet-core-with-hot-chocolate
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274144696/5bEJ5oYDT.png
+tags: visual-studio, graphql, aspnet, aspnet-core, dotnet
+
+---
 
 # Why Use GraphQL
 
