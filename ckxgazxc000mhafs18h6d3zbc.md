@@ -1,4 +1,14 @@
-## GraphQl API In Node.js With TypeGraphQl And Apollo
+---
+title: "GraphQl API In Node.js With TypeGraphQl And Apollo"
+seoTitle: "GraphQl API In Node.js With TypeGraphQl And Apollo"
+seoDescription: "GraphQL is used to build APIs, It's like **REST**, But the reason why to use GraphQL instead of REST is that in graphql you can just give the data..."
+datePublished: Tue Dec 21 2021 16:10:29 GMT+0000 (Coordinated Universal Time)
+cuid: ckxgazxc000mhafs18h6d3zbc
+slug: graphql-in-nodejs-with-apollo-typegraphql
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273535575/fWZxSXC89.png
+tags: nodejs, typescript, graphql, apollo
+
+---
 
 # Why Use GraphQL
 
