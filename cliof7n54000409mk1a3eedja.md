@@ -20,9 +20,7 @@ A Lightning-Fast Static Site Generator: Hugo is a static site generator that all
 
 To install Hugo, open your terminal and execute the following command:
 
-```bash
-brew install hugo
-```
+<details data-node-type="hn-details-summary"><summary>MacOS</summary><div data-type="detailsContent"><code>brew install hugo</code></div></details><details data-node-type="hn-details-summary"><summary>Arch Linux</summary><div data-type="detailsContent"><code>sudo pacman -S hugo</code></div></details><details data-node-type="hn-details-summary"><summary>Debian/Ubuntu</summary><div data-type="detailsContent"><code>sudo apt install hugo</code></div></details><details data-node-type="hn-details-summary"><summary>RHEL/Fedora</summary><div data-type="detailsContent"><code>sudo dnf install hugo</code></div></details>
 
 ### Setting Up Hugo
 
