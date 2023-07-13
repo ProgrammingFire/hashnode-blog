@@ -1,4 +1,13 @@
-## Setup A Django Application
+---
+title: "Setup A Django Application"
+seoDescription: "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care..."
+datePublished: Wed Dec 22 2021 10:36:45 GMT+0000 (Coordinated Universal Time)
+cuid: ckxheil2500huhts1265k3ebp
+slug: setup-django-application
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273846193/p9oRUCWj2.png
+tags: python, django, applications, setup
+
+---
 
 # Step 1 - Install Python
 
