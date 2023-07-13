@@ -1,4 +1,13 @@
-## Introduction to Machine Learning ecosystem!
+---
+title: "Introduction to Machine Learning ecosystem!"
+seoDescription: "Machine learning is a field of inquiry devoted to understanding and building methods that 'learn' without being programmed"
+datePublished: Sun Sep 04 2022 10:00:10 GMT+0000 (Coordinated Universal Time)
+cuid: cl7n5xlyp04bygznvfrv1erge
+slug: introduction-to-machine-learning-ecosystem
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662285471050/oryZoKReU.png
+tags: artificial-intelligence, python, data-science, machine-learning, google-colab
+
+---
 
 ## What is Machine Learning?
 Machine learning is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. It is simply the process of computing the best parameters to model the relationship between some features and targets.
