@@ -1,4 +1,14 @@
-## Get Started With React TypeScript
+---
+title: "Get Started With React TypeScript"
+seoDescription: "Why Use Typescript In React?
+Typescript brings some awesome features that extend JavaScript in powerful ways, including the ability to define..."
+datePublished: Wed Dec 22 2021 13:07:07 GMT+0000 (Coordinated Universal Time)
+cuid: ckxhjvyq001oxess1bfzx7dya
+slug: react-typescript-getting-started
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273948840/PiORWM5tE.png
+tags: javascript, reactjs, typescript, frontend-development, create-react-app
+
+---
 
 ## Why Use Typescript In React?
 
