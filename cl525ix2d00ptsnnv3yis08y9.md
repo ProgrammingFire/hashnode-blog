@@ -1,4 +1,13 @@
-## A Theoretical Deep Dive Into Artificial Intelligence
+---
+title: "A Theoretical Deep Dive Into Artificial Intelligence"
+seoDescription: "Artificial Intelligence (A.I) is a branch of computer science that deals with machine learning human-like intelligence."
+datePublished: Fri Jul 01 2022 07:46:10 GMT+0000 (Coordinated Universal Time)
+cuid: cl525ix2d00ptsnnv3yis08y9
+slug: theoretical-deep-dive-into-artificial-intelligence
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656661464603/94HrdHnRk.png
+tags: artificial-intelligence, python, machine-learning, computer-vision, deep-learning
+
+---
 
 ## Introduction
 Artificial Intelligence (A.I) is a branch of computer science that deals with machine learning human-like intelligence. Let us take a deep dive into A.I.
