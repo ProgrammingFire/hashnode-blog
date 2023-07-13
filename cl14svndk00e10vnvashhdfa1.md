@@ -1,4 +1,13 @@
-## What Is Span In C#? And How It Improves The Performance?
+---
+title: "What Is Span In C#? And How It Improves The Performance?"
+seoDescription: "Span Is A ref struct In C# That Can Help You Save A Lot Of Memory Allocation. Because Span Is a ref struct It Can Be Only Allocated On The Stack."
+datePublished: Thu Mar 24 2022 09:36:38 GMT+0000 (Coordinated Universal Time)
+cuid: cl14svndk00e10vnvashhdfa1
+slug: what-is-span-in-csharp-and-how-it-improves-the-performance
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274340823/yT9bX_LOw.png
+tags: csharp, performance, dotnet, dotnetcore, programming-tips
+
+---
 
 ## What Is Span?
 Span is a `ref struct` in c# that can help you save a lot of memory allocation. Because span is `ref struct` it can be only allocated on the stack and not on the heap which means it does not require garbage collection which effectively means that there gonna be no pause in your application for garbage collection. Let's see what span is and how you can use it with an example:
