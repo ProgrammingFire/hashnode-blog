@@ -1,4 +1,13 @@
-## What are the top 5 programming language to learn
+---
+title: "What are the top 5 programming language to learn"
+seoDescription: "Programming Languages, The first thing that comes to a beginner's mind, Which programming language I should learn? Is it JavaScript? Is it TypeScript?"
+datePublished: Thu Sep 29 2022 17:58:36 GMT+0000 (Coordinated Universal Time)
+cuid: cl8nd16j7000g09jueeke53zz
+slug: the-top-5-programming-language-to-learn
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1664474231084/Oujvsjy-C.png
+tags: cpp, csharp, programming, python, typescript
+
+---
 
 Programming Languages, The first thing that comes to a beginner's mind, Which programming language I should learn? Is it JavaScript? Is it TypeScript? Is it Rust? If he even picks a language then other questions come to his mind like Is it in demand? Is it popular? What can I do with it? Today, I'll answer all your questions about programming languages in this article.
 
