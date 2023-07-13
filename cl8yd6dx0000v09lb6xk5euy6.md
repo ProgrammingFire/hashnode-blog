@@ -1,5 +1,14 @@
-# Do you really need to learn Low-Level
-Programming
+---
+title: "Do you really need to learn Low-Level
+Programming"
+seoDescription: "Talking about Low-Level concepts, Most people find learning them not practical, challenging, or complex to learn, but, for me, I really like Low-Level..."
+datePublished: Fri Oct 07 2022 10:48:07 GMT+0000 (Coordinated Universal Time)
+cuid: cl8yd6dx0000v09lb6xk5euy6
+slug: do-you-really-need-to-learn-low-level-programming
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665139653799/TrWcrV3Xa.png
+tags: cpp, c, csharp, programming, computer-science
+
+---
 
 Talking about Low-Level concepts, Most people find learning them not practical, challenging, or complex to learn, but, for me, I really like learning Low-Level concepts, and see how my software is **actually working**, seeing how I can fix some of the performance issues, reducing memory allocation, and most importantly showing off your Low-Level skills to your friends, by the way, I don't have any programmer friends, so, I do show off in Twitter like this
 
