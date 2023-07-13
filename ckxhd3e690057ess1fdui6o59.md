@@ -1,4 +1,13 @@
-# Deploy Node.js/Express Application On Ubuntu/Debian Server
+---
+title: "Deploy Node.js/Express Application On Ubuntu/Debian Server"
+seoDescription: "Let's download Node.JS from Nodesource. NodeSource is a company that provides enterprise-grade Node support and maintains a repository containing..."
+datePublished: Wed Dec 22 2021 09:56:57 GMT+0000 (Coordinated Universal Time)
+cuid: ckxhd3e690057ess1fdui6o59
+slug: deploy-nodejs-app-on-ubuntu
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650273708079/J1QOIfvSy.png
+tags: express, ubuntu, javascript, deployment, nodejs
+
+---
 
 # Step 1 - Download And Install Node.js
 
