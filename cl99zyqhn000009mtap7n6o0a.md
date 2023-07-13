@@ -1,4 +1,13 @@
-# picoCTF 2022: Binary Exploitation: CVE-XXXX-XXXX
+---
+title: "picoCTF 2022: Binary Exploitation: CVE-XXXX-XXXX"
+seoDescription: "Enter the CVE of the vulnerability as the flag with the correct flag format: picoCTF{CVE-XXXX-XXXXX} replacing XXXX-XXXXX with the numbers for the match..."
+datePublished: Sat Oct 15 2022 14:11:29 GMT+0000 (Coordinated Universal Time)
+cuid: cl99zyqhn000009mtap7n6o0a
+slug: picoctf-2022-binary-exploitation-cve-xxxx-xxxx
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665843077766/bDp6jThex.png
+tags: cyber-security, ctf, binary-exploitation, picoctf, picoctf-2022
+
+---
 
 ## Introduction
 **Challenge:** [CVE-XXXX-XXXX](https://play.picoctf.org/practice/challenge/262?originalEvent=70&page=1)
