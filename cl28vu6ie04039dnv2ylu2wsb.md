@@ -1,4 +1,13 @@
-## Deploy Rust Applications To AWS Lambda
+---
+title: "Deploy Rust Applications To AWS Lambda"
+seoDescription: "A common behavior that I witness is people making a journey toward proficiency with the Rust programming language."
+datePublished: Thu Apr 21 2022 10:50:16 GMT+0000 (Coordinated Universal Time)
+cuid: cl28vu6ie04039dnv2ylu2wsb
+slug: deploy-rust-applications-to-aws-lambda
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650538090154/FV3Q9Nr-R.png
+tags: aws, rust, serverless, aws-lambda, thw-cloud-computing
+
+---
 
 A common behavior that I witness with people making a journey toward proficiency with the Rust programming language is the desire to start using the language for everything. It's true that the language certainly has many merits and seems well adaptable to different application domains, and this reality is only being strengthened by the continuous growth in maturity of the language and its community. However, as a professional, it is still crucially important to have a good sense of what the best tool is for the given job, rather than blindly choosing your favorite. You don't want to introduce more complexity than necessary into a project and you certainly don't want to advocate for a practice that could lead your team to a dead end. Rust may be a great programming language, but one must use discretion when deciding to apply it to a problem.
 
