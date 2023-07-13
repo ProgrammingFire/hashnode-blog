@@ -1,4 +1,13 @@
-# picoCTF 2022: Binary Exploitation: buffer overflow 0
+---
+title: "picoCTF 2022: Binary Exploitation: buffer overflow 0"
+seoDescription: "Smash the stack. Let's start off simple, can you overflow the correct buffer? The program is available here. You can view the source here. And connect..."
+datePublished: Sat Oct 15 2022 10:26:45 GMT+0000 (Coordinated Universal Time)
+cuid: cl99rxq9d001209me9g2ic7mh
+slug: picoctf-2022-binary-exploitation-buffer-overflow-0
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665829497838/cQfnMAzjk.png
+tags: cyber-security, ctf, binary-exploitation, picoctf, picoctf-2022
+
+---
 
 ## Introduction
 **Challenge:** [buffer overflow 0](https://play.picoctf.org/practice/challenge/257?originalEvent=70&page=1)
