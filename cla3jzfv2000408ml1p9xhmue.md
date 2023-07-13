@@ -1,4 +1,13 @@
-# A Beginner-Friendly Introduction To Cyber Security
+---
+title: "A Beginner-Friendly Introduction To Cyber Security"
+seoDescription: "Cyber Security is a fascinating field of computer science that is growing more important every day. As our lives become increasingly dependent on technology"
+datePublished: Sat Nov 05 2022 06:37:14 GMT+0000 (Coordinated Universal Time)
+cuid: cla3jzfv2000408ml1p9xhmue
+slug: a-beginner-friendly-introduction-to-cyber-security
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667630189284/8fjx6YKns.png
+tags: introduction, computer-science, beginners, cyber-security, ethicalhacking
+
+---
 
 Cyber Security is a fascinating field of computer science that is growing more important every day. As our lives become increasingly dependent on technology, the need for people who can protect our data and systems from attack becomes more urgent. In this article, we will learn how to get into Cyber Security and what to expect from a career in this exciting and rapidly-growing field.
 
