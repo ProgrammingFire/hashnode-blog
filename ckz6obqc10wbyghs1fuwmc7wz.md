@@ -1,4 +1,13 @@
-# Deploy Node.JS Application To Kubernetes!
+---
+title: "Deploy Node.JS Application To Kubernetes!"
+seoDescription: "Kubernetes provides an easy way to scale your application, compared to virtual machines. It keeps code operational and speeds up the delivery process. Kuber"
+datePublished: Thu Feb 03 2022 07:45:18 GMT+0000 (Coordinated Universal Time)
+cuid: ckz6obqc10wbyghs1fuwmc7wz
+slug: deploy-nodejs-application-to-kubernetes
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650274018809/ZppHVTxuT.png
+tags: docker, javascript, nodejs, kubernetes, devops
+
+---
 
 ## Prerequisites
 
