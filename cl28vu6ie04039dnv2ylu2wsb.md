@@ -16,17 +16,25 @@ Today, I don't care about being quite so professional. I'll be the first to admi
 Before jumping in, it's worth mentioning that my introduction has been perhaps an exaggeration. I have made it sound as if Rust does not belong in the realm of serverless and that this is an unmarked territory, but who am I to say that Rust isn't in fact the perfect tool for serverless? To my knowledge, serverless Rust too has grown in maturity over the last couple of years. What this article is going to present is certainly not any ground-breaking discovery, but instead what I believe should be an excellent resource for people having no idea where to start for deploying Rust in AWS Lambda. So without further ado, let's go ahead and build the project.
 
 ### Prerequisites
+
 To follow along with this tutorial, you will need the following:
 
-- AWS Command Line Interface installed and configured with security credentials for - your AWS account/user. At the time of writing, I am using version 2.0.
-- NodeJS. At the time of writing, I am using version 16.14.2.
-- AWS CDK. At the time of writing, I am using version 2.20.
-```
+* AWS Command Line Interface installed and configured with security credentials for - your AWS account/user. At the time of writing, I am using version 2.0.
+    
+* NodeJS. At the time of writing, I am using version 16.14.2.
+    
+* AWS CDK. At the time of writing, I am using version 2.20.
+    
+
+```rust
 npm i -g aws-cdk
 ```
-- Rust. At the time of writing, I am using version 1.16.
+
+* Rust. At the time of writing, I am using version 1.16.
+    
 
 ### Creating a CDK Project
+
 The first thing we need to do is create the project. Even though this is supposed to be about our Rust lambda, CDK is going to be at the core of our project and the lambda code will exist within it. It is of course possible to structure things differently, for example by keeping the lambda code and CDK separate, but for this tutorial, we will keep things simple.
 
 In the command line, make a directory for the new project.
@@ -37,6 +45,7 @@ cd tutorial-rust-lambda
 ```
 
 Use the CDK CLI to initialize a new project. We will use Typescript.
+
 ```bash
 cdk init app --language typescript
 ```
@@ -68,6 +77,7 @@ cdk bootstrap aws://{AWS_ACCOUNT_ID}/{AWS_DEFAULT_REGION}
 ```
 
 ### Writing a Lambda Function in Rust
+
 We're going to write an incredibly simple Rust program that will receive an event of an expected format (a JSON string with a "name" field) and respond with "Hello {name}". The code is nearly identical to the [basic example](https://github.com/awslabs/aws-lambda-rust-runtime/blob/main/lambda-runtime/examples/basic.rs) from the [aws-lambda-rust-runtime](https://github.com/awslabs/aws-lambda-rust-runtime) repository.
 
 First, let's set up our Rust project within our CDK project. Again, your lambda code does not need to reside within your CDK project. If your lambda code scales into a large project you could instead package it and publish it to AWS S3 and reference that S3 object from CDK, but for this demo, we are doing things the more straightforward way.
@@ -87,6 +97,7 @@ tokio = "1.6.1"
 ```
 
 Next, we'll write our `lambda/hello/src/main.rs`.
+
 ```rust
 // This example requires the following input to succeed:
 // { "name": "some name" }
@@ -141,6 +152,7 @@ pub(crate) async fn my_handler(event: Request, ctx: Context) -> Result<Response,
 ```
 
 Finally, try building with cargo to make sure everything works.
+
 ```bash
 pushd lambda/hello
 cargo build
@@ -156,6 +168,7 @@ npm i @aws-cdk/aws-lambda
 ```
 
 Next, in the file representing our CloudFormation stack `lib/tutorial-rust-lambda-stack.ts`, we're going to instantiate a lambda function.
+
 ```ts
 import * as cdk from '@aws-cdk/core';
 import * as lambda from '@aws-cdk/aws-lambda';
@@ -185,7 +198,7 @@ export class TutorialRustLambdaStack extends cdk.Stack {
 
 Let's unpack some of that because there are some interesting things going on here. When we create the function, we pass on some options to configure it. We name the function with the `functionName` option, we set the handler function with the handler option (this is actually unnecessary for us because of how custom runtimes work), and we specify the runtime with the runtime option.
 
-Typically, you might see something more specific as the runtime, like NODEJS_12_X or GO_1_X, but for a custom runtime, a runtime in which you can provide your own binary, we use the PROVIDED_AL or PROVIDED_AL2. AL here is short for Amazon Linux.
+Typically, you might see something more specific as the runtime, like NODEJS\_12\_X or GO\_1\_X, but for a custom runtime, a runtime in which you can provide your own binary, we use the PROVIDED\_AL or PROVIDED\_AL2. AL here is short for Amazon Linux.
 
 Notice the code option. This option is arguably the most important one, as it lets the developer indicate how CDK provides the actual code or binary for the function to execute. We're using the Code class' static method `fromAsset` to create a bundle with our binary. With this approach, we can specify a path to a directory or zip file. We give the path to our Rust project source root and then pass some additional options. By using the bundling option, we are telling the asset provider to create our asset with a docker container. The bundling options are somewhat powerful, allowing you to specify the image to use, docker entry point, command, volumes, and some other things. We only need to specify the image and command.
 
@@ -198,20 +211,24 @@ cdk deploy
 ```
 
 Let's go ahead and test the lambda now. We can do this from the command line using the AWS CLI.
+
 ```bash
 aws lambda invoke --function-name hello --payload '{"name":"Nick"}' output.json
 ```
 
 Now if you look at the contents of output.json, you should see a nice message.
+
 ```bash
 cat output.json
 # {"req_id":"88226fb0-670c-4f0e-b772-7e677ccec71d","msg":"Hello Nick!"}
 ```
 
 ### Adapting the Lambda into an API Endpoint
+
 To get a glimpse of just how easy CDK makes it to build and connect the components of your application, let's take this lambda one step further by giving it an actual event source. We'll tell CDK to create an API gateway that proxies all requests to the lambda, and we'll simply modify the lambda to respond with some of the data coming in from the request context.
 
 Let's start with the lambda modification. First, we'll need to update our dependencies again inside lambda/hello/Cargo.toml. We can remove the serde dependency and add the following:
+
 ```toml
 aws_lambda_events = "0.4.0"
 http = "0.2.4"
@@ -229,7 +246,7 @@ use http::header::HeaderMap;
 
 Remove the struct definitions we previously had for Request and Response, and replace any references to those by ApiGatewayProxyRequest and ApiGatewayProxyResponse.
 
-Finally, update the my_handler function to build an ApiGatewayProxyResponse to return, instead of our old Response. We'll take the URL path from the request context and return that with some text in the response body.
+Finally, update the my\_handler function to build an ApiGatewayProxyResponse to return, instead of our old Response. We'll take the URL path from the request context and return that with some text in the response body.
 
 ```bash
 pub(crate) async fn my_handler(event: ApiGatewayProxyRequest, _ctx: Context) -> Result<ApiGatewayProxyResponse, Error> {
@@ -257,10 +274,13 @@ npm i @aws-cdk/aws-apigateway
 ```
 
 We'll then import that library at the top of our lib/tutorial-rust-lambda-stack.ts.
+
 ```ts
 import * as apigw from '@aws-cdk/aws-apigateway';
 ```
+
 And finally, we will instantiate a new API Gateway Lambda Rest API resource after our lambda function definition. We will pass to it our lambda function as the handler.
+
 ```ts
 const gw = new apigw.LambdaRestApi(this, 'HelloEndpoint', {
   handler: hello
@@ -268,6 +288,7 @@ const gw = new apigw.LambdaRestApi(this, 'HelloEndpoint', {
 ```
 
 Once again, we can now deploy our CDK application.
+
 ```bash
 cdk deploy
 ```
