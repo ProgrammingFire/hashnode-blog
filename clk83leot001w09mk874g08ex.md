@@ -4,7 +4,7 @@ seoDescription: "Next.js has gained tremendous popularity as a powerful and vers
 datePublished: Tue Jul 18 2023 09:34:19 GMT+0000 (Coordinated Universal Time)
 cuid: clk83leot001w09mk874g08ex
 slug: top-nextjs-features-to-help-you-become-more-productive
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689672848160/d8697459-c978-4929-9ee0-9c00f5aa4215.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690194388027/95328fac-8b8d-4bf9-9912-2b4ab5d2ac4a.png
 tags: javascript, web-development, reactjs, typescript, nextjs
 
 ---
