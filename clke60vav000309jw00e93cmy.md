@@ -4,7 +4,7 @@ seoDescription: "Functional programming and concurrency are two powerful pillars
 datePublished: Sat Jul 22 2023 15:28:57 GMT+0000 (Coordinated Universal Time)
 cuid: clke60vav000309jw00e93cmy
 slug: functional-programming-with-elixir-a-deep-dive-into-concurrent-and-fault-tolerant-systems
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690039659400/dfba3347-6cfd-4e83-bd9e-ea7db805dc04.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690194354508/407acff5-28d9-4247-a460-7cd3c489cf1e.png
 tags: web-development, haskell, elixir, functional-programming, programming-languages
 
 ---
