@@ -4,7 +4,7 @@ seoDescription: "Docker has revolutionized the way we build, ship, and run appli
 datePublished: Mon Jul 17 2023 12:18:23 GMT+0000 (Coordinated Universal Time)
 cuid: clk6u0jlv001a09jjekr7fsui
 slug: whats-inside-your-docker-container-a-deep-dive
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689596239748/f3817d44-05f8-4919-a62a-3f90e6e83a4d.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690194415151/faea8b16-9d5b-4307-9ccd-2a297d068e02.png
 tags: cloud, docker, web-development, devops, networking
 
 ---
