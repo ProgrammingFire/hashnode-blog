@@ -4,7 +4,7 @@ seoDescription: "Building a high-performance backend is crucial for modern web a
 datePublished: Sun Jul 16 2023 03:00:09 GMT+0000 (Coordinated Universal Time)
 cuid: clk4umspc0bfjjhnv2re1dbic
 slug: create-a-blazing-fast-backend-with-rust-and-rocket
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689436258567/a1c7806b-fdb3-45db-a841-ab05b7251e7c.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690194442269/de38275a-e150-4e8b-957f-a14bddf1ec70.png
 tags: programming-blogs, web-development, backend, devops, rust
 
 ---
