@@ -4,7 +4,7 @@ seoDescription: "Go Lang is a powerful programming language known for its simpli
 datePublished: Sat Jul 15 2023 08:38:57 GMT+0000 (Coordinated Universal Time)
 cuid: clk3ranjt000m09mlf1pw2rhi
 slug: deploy-go-minimal-api-to-docker-and-kubernetes
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689410252384/19073e48-cdf0-4447-a963-20767d2004c7.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690194465300/27bd0170-7b24-4742-a22a-755178085963.png
 tags: docker, go, kubernetes, apis, devops
 
 ---
