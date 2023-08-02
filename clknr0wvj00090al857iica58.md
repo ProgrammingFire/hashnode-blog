@@ -1,5 +1,6 @@
 ---
 title: "How to Efficiently Learn a Programming Language! 🚀 📖"
+seoTitle: "How to Efficiently Learn a Programming Language!"
 seoDescription: "Hey there! As a tech enthusiast, I'm always on the lookout to expand my coding horizons. Learning a new programming language can be both thrilling and..."
 datePublished: Sat Jul 29 2023 08:26:47 GMT+0000 (Coordinated Universal Time)
 cuid: clknr0wvj00090al857iica58
