@@ -102,13 +102,3 @@ Rather than viewing migration as a burdensome task, consider it as an opportunit
 Codebase migration is not for the faint of heart. It requires careful planning, dedication, and a willingness to embrace challenges. The process can be time-consuming, and unexpected roadblocks may arise. However, when approached with a strategic mindset, migration can lead to improved performance, enhanced security, and a more scalable application.
 
 So, the next time your team embarks on the journey of codebase migration, remember that while it may suck at times, the result—a more robust, efficient, and future-ready application—makes the effort worthwhile.
-
-\[Your Name\]
-
-* [Your Blog/Portfolio](https://www.yourblogportfolio.com)
-    
-* [Your Twitter](https://twitter.com/yourtwitter)
-    
-* [Your GitHub](https://github.com/yourgithub)
-    
-* [Your LinkedIn](https://linkedin.com/in/yourlinkedin)
