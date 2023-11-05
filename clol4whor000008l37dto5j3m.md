@@ -1,9 +1,9 @@
 ---
-title: "Do we really need Backend now? Can we build applications without backend with Next.js 14?"
+title: "Do we really need a backend now? Can we build applications without backend with Next.js 14?"
 seoDescription: "In the rapidly evolving landscape of web development, the role of the backend has been a critical component for many years. However, with the advent of..."
 datePublished: Sun Nov 05 2023 07:10:46 GMT+0000 (Coordinated Universal Time)
 cuid: clol4whor000008l37dto5j3m
-slug: do-we-really-need-backend-now-can-we-build-applications-without-backend-with-nextjs-14
+slug: do-we-really-need-a-backend-now-can-we-build-applications-without-backend-with-nextjs-14
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699168176072/a86f9b83-17fe-44ae-b64c-054e2654033b.png
 tags: web-development, backend, typescript, graphql, nextjs
 
