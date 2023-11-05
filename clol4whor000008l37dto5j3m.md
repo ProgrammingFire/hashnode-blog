@@ -13,7 +13,7 @@ In the rapidly evolving landscape of web development, the role of the backend ha
 
 ## Introduction
 
-So we know that for a lot of years, I have been a very enthusiastic full-stack developer. Back in the day, I used to enjoy writing backend more than frontend. This may be something I still like right now! Yeah, it's true, I enjoy writing backend more than frontend. But with the evolving Next.js Server Components and Server Actions. Do we still need a backend? Well, in my opinion, **We don't.**
+If you know that I have been writing articles for 2 years or so and I have been in the software development world for more than 3 years and I enjoy writing and building backends more than frontends! Yeah, it's true, I enjoy writing backend more than frontend. But with the evolving Next.js Server Components and Server Actions. Do we still need a backend? Well, in my opinion, **We don't.**
 
 ## Why we don't need a backend?
 
